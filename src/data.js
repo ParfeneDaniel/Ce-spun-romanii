@@ -141,10 +141,6 @@ export const data = [
         answer: "carbunii",
         points: 2,
       },
-      {
-        answer: "",
-        points: 0,
-      },
     ],
   },
   {
@@ -215,10 +211,6 @@ export const data = [
         answer: "Foodie",
         points: 8,
       },
-      {
-        answer: "",
-        points: 0,
-      },
     ],
   },
   {
@@ -284,14 +276,6 @@ export const data = [
       {
         answer: "Nu am catalogu",
         points: 3,
-      },
-      {
-        answer: "",
-        points: 0,
-      },
-      {
-        answer: "",
-        points: 0,
       },
     ],
   },
@@ -363,10 +347,6 @@ export const data = [
         answer: "broccoli",
         points: 4,
       },
-      {
-        answer: "",
-        points: 0,
-      },
     ],
   },
   {
@@ -399,10 +379,6 @@ export const data = [
       {
         answer: "curs de muzica",
         points: 3,
-      },
-      {
-        answer: "",
-        points: 0,
       },
     ],
   },
@@ -437,10 +413,6 @@ export const data = [
         answer: "toaleta",
         points: 7,
       },
-      {
-        answer: "",
-        points: 0,
-      },
     ],
   },
   {
@@ -474,9 +446,368 @@ export const data = [
         answer: "maimuta",
         points: 2,
       },
+    ],
+  },
+  {
+    question: "Inafara de caiete, ce mai ai in ghiozdan?",
+    answers: [
       {
-        answer: "",
-        points: 0,
+        answer: "manuale",
+        points: 35,
+      },
+      {
+        answer: "penar",
+        points: 22,
+      },
+      {
+        answer: "mancare",
+        points: 17,
+      },
+      {
+        answer: "apa",
+        points: 11,
+      },
+      {
+        answer: "portofel",
+        points: 8,
+      },
+      {
+        answer: "haine",
+        points: 5,
+      },
+      {
+        answer: "ruj",
+        points: 2,
+      },
+    ],
+  },
+  {
+    question: "Ce lucru se topeste?",
+    answers: [
+      {
+        answer: "gheata",
+        points: 21,
+      },
+      {
+        answer: "inghetata",
+        points: 19,
+      },
+      {
+        answer: "untul",
+        points: 19,
+      },
+      {
+        answer: "zapada",
+        points: 16,
+      },
+      {
+        answer: "ceara",
+        points: 13,
+      },
+      {
+        answer: "ciocolata",
+        points: 12,
+      },
+    ],
+  },
+  {
+    question: "Unde poti sa iti pierzi telefonul?",
+    answers: [
+      {
+        answer: "pe canapea",
+        points: 36,
+      },
+      {
+        answer: "in buzunar",
+        points: 26,
+      },
+      {
+        answer: "in geanta",
+        points: 12,
+      },
+      {
+        answer: "in masina",
+        points: 10,
+      },
+      {
+        answer: "in banca",
+        points: 9,
+      },
+      {
+        answer: "sub masa",
+        points: 7,
+      },
+    ],
+  },
+  {
+    question: "Ce uiti sa iei cu tine in excursie?",
+    answers: [
+      {
+        answer: "gel de dus",
+        points: 21,
+      },
+      {
+        answer: "pasta de dinti",
+        points: 18,
+      },
+      {
+        answer: "lenjerie",
+        points: 17,
+      },
+      {
+        answer: "incarcator",
+        points: 15,
+      },
+      {
+        answer: "bani",
+        points: 12,
+      },
+      {
+        answer: "ochelari de soare",
+        points: 9,
+      },
+      {
+        answer: "mancare pentru drum",
+        points: 8,
+      },
+    ],
+  },
+  {
+    question: "Ce incepe cu litera C si gasesti la scoala?",
+    answers: [
+      {
+        answer: "ceas",
+        points: 22,
+      },
+      {
+        answer: "catalog",
+        points: 20,
+      },
+      {
+        answer: "caiet",
+        points: 17,
+      },
+      {
+        answer: "carte",
+        points: 15,
+      },
+      {
+        answer: "calculator",
+        points: 11,
+      },
+      {
+        answer: "calendar",
+        points: 7,
+      },
+      {
+        answer: "creion",
+        points: 5,
+      },
+      {
+        answer: "calorifer",
+        points: 3,
+      },
+    ],
+  },
+  {
+    question: "Ce fel de mancare esti obligat sa mananci de sarbatori?",
+    answers: [
+      {
+        answer: "sarmale",
+        points: 30,
+      },
+      {
+        answer: "salata boeuf",
+        points: 28,
+      },
+      {
+        answer: "cozonac",
+        points: 15,
+      },
+      {
+        answer: "oua umplute",
+        points: 10,
+      },
+      {
+        answer: "ciorba",
+        points: 8,
+      },
+      {
+        answer: "carnati",
+        points: 7,
+      },
+      {
+        answer: "drob",
+        points: 2,
+      },
+    ],
+  },
+  {
+    question: "Ce scuza ai cand chiulesti prima ora?",
+    answers: [
+      {
+        answer: "nu a sunat ceasul",
+        points: 29,
+      },
+      {
+        answer: "am pierdut autobuzul",
+        points: 16,
+      },
+      {
+        answer: "nu a venit trenul",
+        points: 13,
+      },
+      {
+        answer: "am uitat ceva acasa",
+        points: 13,
+      },
+      {
+        answer: "am fost la doctor",
+        points: 11,
+      },
+      {
+        answer: "s-a stricat masina",
+        points: 10,
+      },
+      {
+        answer: "a murit cainele",
+        points: 8,
+      },
+    ],
+  },
+  {
+    question: "Ce mirosi inainte de a cumpara?",
+    answers: [
+      {
+        answer: "parfum",
+        points: 31,
+      },
+      {
+        answer: "flori",
+        points: 19,
+      },
+      {
+        answer: "sapun",
+        points: 18,
+      },
+      {
+        answer: "carti",
+        points: 12,
+      },
+      {
+        answer: "mancare",
+        points: 7,
+      },
+      {
+        answer: "hartie igienica",
+        points: 7,
+      },
+      {
+        answer: "lumanare",
+        points: 6,
+      },
+    ],
+  },
+  {
+    question: "Ce cuvant rimeaza cu floare?",
+    answers: [
+      {
+        answer: "soare",
+        points: 18,
+      },
+      {
+        answer: "valoare",
+        points: 17,
+      },
+      {
+        answer: "favoare",
+        points: 15,
+      },
+      {
+        answer: "mare",
+        points: 15,
+      },
+      {
+        answer: "culoare",
+        points: 14,
+      },
+      {
+        answer: "ninsoare",
+        points: 12,
+      },
+      {
+        answer: "mancare",
+        points: 9,
+      },
+    ],
+  },
+  {
+    question: "De ce te poti trezi la 2 dimineata?",
+    answers: [
+      {
+        answer: "mers la baie",
+        points: 37,
+      },
+      {
+        answer: "muzica din vecini",
+        points: 14,
+      },
+      {
+        answer: "sete",
+        points: 13,
+      },
+      {
+        answer: "cosmar",
+        points: 13,
+      },
+      {
+        answer: "frig/cald",
+        points: 7,
+      },
+      {
+        answer: "foame",
+        points: 6,
+      },
+      {
+        answer: "serviciu",
+        points: 5,
+      },
+      {
+        answer: "durere",
+        points: 5,
+      },
+    ],
+  },
+  {
+    question: "Ce iti speli cel mai des?",
+    answers: [
+      {
+        answer: "mainile",
+        points: 20,
+      },
+      {
+        answer: "dintii",
+        points: 19,
+      },
+      {
+        answer: "corpul",
+        points: 16,
+      },
+      {
+        answer: "parul",
+        points: 14,
+      },
+      {
+        answer: "hainele",
+        points: 14,
+      },
+      {
+        answer: "masina",
+        points: 12,
+      },
+      {
+        answer: "covorul",
+        points: 11,
       },
     ],
   },
