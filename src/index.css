@@ -1,0 +1,247 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(3, 3, 54);
+}
+
+.welcome {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome h1 {
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.welcome button {
+  margin-top: 50px;
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 25px 10px 25px;
+  box-shadow: 5px 5px 10px rgb(50, 104, 186);
+  cursor: pointer;
+}
+
+.round {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.round h1 {
+  color: whitesmoke;
+  font-size: 50px;
+}
+
+.round button {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.teams {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 250px;
+}
+
+.numberTeam {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.numberTeam h2 {
+  font-size: 40px;
+  color: whitesmoke;
+}
+
+.numberTeam input {
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: none;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 20px;
+}
+
+.question .questionHeader {
+  width: 100%;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid white;
+}
+
+.question .questionHeader button {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+}
+
+.team {
+  height: 750px;
+  width: 15%;
+  border: 1px solid white;
+  color: white;
+}
+
+.team .teamHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid white;
+}
+
+.team .teamHeader h2 {
+  font-size: 40px;
+}
+
+.team .teamHeader p {
+  font-size: 30px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.images img {
+  width: 140px;
+  height: 140px;
+}
+
+.wholeGame {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  align-items: center;
+}
+
+.game {
+  width: 70%;
+  height: 750px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.displayQuestion {
+  width: 100%;
+  text-align: center;
+  height: 20%;
+  padding-top: 20px;
+}
+
+.answers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 80%;
+  gap: 40px;
+}
+
+.answer {
+  width: 400px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.answerData {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid black;
+  color: black;
+}
+
+.pointsData {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.controller {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.controller button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.bigRed {
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  top: 100px;
+  left: 500px;
+}
+
+.bigRed img {
+  width: 100%;
+  height: 100%;
+}
