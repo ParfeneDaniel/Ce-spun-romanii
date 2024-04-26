@@ -23,7 +23,7 @@ export const data = [
         points: 9,
       },
       {
-        answer: "Carti/Caiete inchise",
+        answer: "Dati Test",
         points: 8,
       },
       {
@@ -406,7 +406,7 @@ export const data = [
         points: 9,
       },
       {
-        answer: "galeata",
+        answer: "sticla/pahar",
         points: 8,
       },
       {
